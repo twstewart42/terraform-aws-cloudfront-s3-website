@@ -21,7 +21,7 @@ Prerequisites:
      
     module "cloudfront_s3_website" {
         source           = "twstewart42/cloudfront-s3-website/aws"
-        version          = "1.2.0"
+        version          = "1.2.1"
         hosted_zone      = "example.com"
         domain_name      = "test.example.com"
         aws_region       = "us-east-1"
